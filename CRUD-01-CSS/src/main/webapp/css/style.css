@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 1em;
+}
+
+h1 {
+	color: #66bbff;
+}
+
+.botaoNovo {
+	transition-duration: 0.5s;
+	text-decoration: none;
+	background-color: white;
+	padding: 2px 7px 2px 7px;
+	color: DarkOrange;
+	font-size: 1.2em;
+	font-weight: 700;
+	border-radius: 5px;
+	border: 1.8px solid DarkOrange;
+	cursor: pointer;
+}
+
+.botaoNovo:hover {
+	background-color: DarkOrange;
+	color: white;
+}
+
+.botaoSalvar {
+	transition-duration: 0.5s;
+	text-decoration: none;
+	background-color: white;
+	padding: 2px 7px 2px 7px;
+	color: limegreen;
+	font-size: 1.2em;
+	font-weight: 700;
+	border-radius: 5px;
+	border: 1.8px solid limegreen;
+	cursor: pointer;
+}
+
+.botaoSalvar:hover {
+	background-color: limegreen;
+	color: white;
+}
+
+.botaoExcluir {
+	transition-duration: 0.5s;
+	text-decoration: none;
+	background-color: white;
+	padding: 2px 7px 2px 7px;
+	color: tomato;
+	font-size: 1.2em;
+	font-weight: 700;
+	border-radius: 5px;
+	border: 1.8px solid tomato;
+	cursor: pointer;
+}
+
+.botaoExcluir:hover {
+	background-color: tomato;
+	color: white;
+}
+
+.botaoEditar {
+	transition-duration: 0.5s;
+	text-decoration: none;
+	background-color: white;
+	padding: 2px 7px 2px 7px;
+	color: DeepSkyBlue;
+	font-size: 1.2em;
+	font-weight: 700;
+	border-radius: 5px;
+	border: 1.8px solid deepskyblue;
+	cursor: pointer;
+}
+
+.botaoEditar:hover {
+	background-color: deepskyblue;
+	color: white;
+}
+
+.caixa1 {
+	width: 320px;
+	padding: 7px;
+	margin-bottom: 10px;
+	border: 1px solid #66bbff;
+	border-radius: 5px;
+	font-size: 1.2em;
+}
+
+#tabela1 {
+	margin-top: 30px;
+		
+}
+
+#tabela1 th {
+	border-radius: 3px;
+	border: 1px solid #ddd;
+	padding: 7px;
+	text-align: left;
+	background-color: #66bbff;
+	color: #fff;
+}
+
+#tabela1 td {
+	border-radius: 3px;
+	border: 1px solid #ddd;
+	padding: 7px;
+	background-color: aliceblue;
+}
